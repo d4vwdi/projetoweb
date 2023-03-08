@@ -11,7 +11,7 @@ sequelize.authenticate().then(function(){
 })
 
 
-const Agendamentos = sequelize.define("agendamentos",{
+/*const Agendamentos = sequelize.define("agendamentos",{
 	nome:{
 	type: Sequelize.STRING
 	},
@@ -44,7 +44,7 @@ Agendamentos.create({
 	cidade: "São Paulo",
 	estado:"SP",
 	observacao:"Teste para aula"
-})
+})*/
 	
 	
 	
