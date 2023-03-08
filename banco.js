@@ -11,7 +11,7 @@ sequelize.authenticate().then(function(){
 })
 
 
-/*const Agendamentos = sequelize.define("agendamentos",{
+const Agendamentos = sequelize.define("agendamentos",{
 	nome:{
 	type: Sequelize.STRING
 	},
@@ -34,17 +34,19 @@ sequelize.authenticate().then(function(){
 	type: Sequelize.STRING
 	},
 })
-Agendamentos.sync({force:true})
+//Agendamentos.sync({force:true})
+
+
 
 Agendamentos.create({
-	nome:"Jeferson Roberto de Lima",
+	nome: "Jeferson Roberto de Lima",
 	endereco: "Av Águia de Haia",
-	bairro:"Jd São Nicolau",
-	cep:09239222,
+	bairro: "Jd São Nicolau",
+	cep: 09239222,
 	cidade: "São Paulo",
-	estado:"SP",
-	observacao:"Teste para aula"
-})*/
+	estado: "SP",
+	observacao: "Teste para aula"
+})
 	
 	
 	
